@@ -57,7 +57,7 @@ pipeline  {
             steps {
                 echo " ============== starting chatterbox server =================="
                 sh '''
-                docker run -d --restart=always -p 80:80  macnaer/secret-contact-list
+                docker run -d --restart=always -p 80:80  geres1793/secret-contact-list
                 '''
             }
         }
